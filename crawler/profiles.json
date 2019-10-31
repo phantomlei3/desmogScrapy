@@ -1,0 +1,13 @@
+{"bbc.com": {
+  "citations": ".story-body__inner a::attr(href)",
+  "author": ".byline__name::text",
+  "publish_time": ".with-extracted-share-icons .date::text"
+},
+
+  "naturalnews.com": {
+    "citations": ".entry-content a::attr(href)",
+    "author": ".Article-Author a[rel='author']::text",
+    "publish_time": ".Article-Author::text"
+  }
+
+}
